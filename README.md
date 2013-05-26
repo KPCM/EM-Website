@@ -1,4 +1,4 @@
-EM-Website
-==========
+KPCM-EM
+=======
 
-KPCM EM Website
+English Ministry website using Jekyll and custom html/css.

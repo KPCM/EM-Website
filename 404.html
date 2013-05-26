@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="<?php bloginfo('charset'); ?>" />
+
+	<title>{{site.name}}</title>
+
+	<meta name="description" content="Korean Presbyterian Church of Minnesota English  Ministry" />
+	<meta name="author" content="Korean Presbyterian Church of Minnesota English  Ministry" />
+
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="/js/jquery.blueberry.js"></script>
+	<script src="/js/jquery.masonry.min.js"></script>
+
+	<script>
+	$(window).load(function() {
+		$('.blueberry').blueberry();
+	});
+
+	var $container = $('.photonic-stream');
+	$container.imagesLoaded(function(){
+		$container.masonry({
+			itemSelector : '.photonic-flickr-image',
+			columnWidth : 240
+		});
+	});
+	</script>
+
+</head>		
+
+<body class="{{page.custom_page_class}}">
+	<div id="km_link">
+		<p><a href="http://kpcm.org"><img src="/uploads/2011/08/kr.png" alt="KPCM Korean Ministry" />&nbsp;KM</a></p>
+	</div>
+	<div id="header" class="container_16">
+		<div class="logo_image grid_3">
+			<a href="/"><h1 class="logo_image">KPCM English Ministry</h1></a>
+		</div>
+		<div class="grid_13">
+			<ul id="primary_menu">
+				<li class="draw_menu_border primary_menu_item grid_2 alpha">
+					<p><span class="menu_button"><a href="/welcome/">Welcome</a></span></p>
+				</li>
+				<li class="draw_menu_border primary_menu_item grid_2">
+					<p><span class="menu_button"><a href="/about/our-ministries/">Ministries</a></span></p>
+				</li>
+				<li class="draw_menu_border primary_menu_item grid_3">
+					<p><span class="menu_button"><a href="/about/">About KPCM EM</a></span></p>
+				</li>
+				<li class="draw_menu_border primary_menu_item grid_2">
+					<p><span class="menu_button"><a href="/media/pictures/">Photos</a></span></p>
+				</li>
+				<li class="draw_menu_border primary_menu_item grid_4 alpha omega ">
+					<p><span class="menu_button"><a href="/contact/">Contact Us</a></span></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container_12">
+		<div class="grid_12">
+			<div class="grid_12">
+				<h2>We lost it!</h2>
+			</div>
+		</div>
+		<div class="grid_12">
+			<img src="/uploads/2012/05/404.png" alt="What you're looking for does not exist!" />
+			<br />
+			<br />
+		</div>
+	</div>
+	<div class="footer container_12">
+		<div class="grid_5">
+			<p>2012 &copy; Korean Presbyterian Church of Minnesota.</p>
+		</div>
+		<div class="grid_7">
+			<p class="right"><a href="/about/our-worship/praise-songs/">Weekly Praise Songs</a> | <a href="/contact/">Contact Us</a> | <a href="/about/our-vision/">Our Vision Statement</a></p>
+		</div>
+	</div>
+
+	<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+	  _paq.push(["setCookieDomain", "*.kpcmem.org"]);
+	  _paq.push(["trackPageView"]);
+	  _paq.push(["enableLinkTracking"]);
+
+	  (function() {
+	    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://keehun.com/piwik/";
+	    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+	    _paq.push(["setSiteId", "3"]);
+	    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+	    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<!-- End Piwik Code -->
+</body>
+</html>

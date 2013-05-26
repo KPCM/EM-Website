@@ -1,0 +1,20 @@
+<!-- echo '<ul id="sidebar_menu grid_3">';
+echo '<li class="sidebar_menu_item grid_3 alpha"><p><a class="'.(($post->ID == 9)?"selected":"").'" href="/about/">The Church</a></p></li>';
+echo '<li class="sidebar_menu_break grid_3 alpha"><p>&nbsp;</p></li>';
+echo '<li class="sidebar_menu_item grid_3 alpha"><p><a class="'.(($post->ID == 23)?"selected":"").'" href="/our-vision/">Our Vision</a></p></li>';
+echo '<li class="sidebar_menu_item grid_3 alpha"><p><a class="'.(($post->ID == 25)?"selected":"").'" href="/our-worship/">Our Worship</a></p></li>';
+echo '<li class="sidebar_menu_item grid_3 alpha"><p><a class="'.(($post->ID == 15)?"selected":"").'" href="/our-ministries/">Our Ministries</a></p></li>';
+// echo '<li class="sidebar_menu_item grid_3 alpha"><p><a class="'.(($post->ID == 61)?"selected":"").'" href="/our-fellowships/">Our Fellowships</a></p></li>';
+echo '<li class="sidebar_menu_break grid_3 alpha"><p>&nbsp;</p></li>';
+echo '<li class="sidebar_menu_item grid_3 alpha"><p><a class="'.(($post->ID == 76)?"selected":"").'" href="/our-lay-leaders/">Our Lay Leaders</a></p></li>';
+echo '<li class="sidebar_menu_item grid_3 alpha"><p><a class="'.(($post->ID == 74)?"selected":"").'" href="/our-staff/">Our Staff</a></p></li>';
+echo '</ul>'; -->
+
+<li class="sidebar_menu_item grid_3 alpha"><p><a class="{% if page.name == "about" %}selected{% endif %}" href="/about/">The Church</a></p></li>
+<li class="sidebar_menu_break grid_3 alpha"><p>&nbsp;</p></li>
+<li class="sidebar_menu_item grid_3 alpha"><p><a class="{% if page.name == "our-vision" %}selected{% endif %}" href="/about/our-vision/">Our Vision</a></p></li>
+<li class="sidebar_menu_item grid_3 alpha"><p><a class="{% if page.name == "our-worship" %}selected{% endif %}" href="/about/our-worship/">Our Worship</a></p></li>
+<li class="sidebar_menu_item grid_3 alpha"><p><a class="{% if page.name == "our-ministries" %}selected{% endif %}" href="/about/our-ministries/">Our Ministries</a></p></li>
+<li class="sidebar_menu_break grid_3 alpha"><p>&nbsp;</p></li>
+<li class="sidebar_menu_item grid_3 alpha"><p><a class="{% if page.name == "our-lay-leaders" %}selected{% endif %}" href="/about/our-lay-leaders/">Our Lay Leaders</a></p></li>
+<li class="sidebar_menu_item grid_3 alpha"><p><a class="{% if page.name == "our-staff" %}selected{% endif %}" href="/about/our-staff/">Our Staff</a></p></li>

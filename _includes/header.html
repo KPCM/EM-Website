@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="<?php bloginfo('charset'); ?>" />
+
+	<title>{{site.name}}</title>
+
+	<meta name="description" content="Korean Presbyterian Church of Minnesota English  Ministry" />
+	<meta name="author" content="Korean Presbyterian Church of Minnesota English  Ministry" />
+
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="/js/jquery.blueberry.js"></script>
+	<script src="/js/jquery.masonry.min.js"></script>
+
+	<script>
+	$(window).load(function() {
+		$('.blueberry').blueberry();
+	});
+
+	var $container = $('.photonic-stream');
+	$container.imagesLoaded(function(){
+		$container.masonry({
+			itemSelector : '.photonic-flickr-image',
+			columnWidth : 240
+		});
+	});
+	</script>
+
+</head>		
+
+<body class="{{page.custom_page_class}}">
+	<div id="km_link">
+		<p><a href="http://kpcm.org"><img src="/uploads/2011/08/kr.png" alt="KPCM Korean Ministry" />&nbsp;KM</a></p>
+	</div>
+	<div id="header" class="container_16">
+		<div class="logo_image grid_3">
+			<a href="/"><h1 class="logo_image">KPCM English Ministry</h1></a>
+		</div>
+		<div class="grid_13">
+			<ul id="primary_menu">
+				<li class="draw_menu_border primary_menu_item grid_2 alpha">
+					<p><span class="menu_button"><a href="/welcome/">Welcome</a></span></p>
+				</li>
+				<li class="draw_menu_border primary_menu_item grid_2">
+					<p><span class="menu_button"><a href="/about/our-ministries/">Ministries</a></span></p>
+				</li>
+				<li class="draw_menu_border primary_menu_item grid_3">
+					<p><span class="menu_button"><a href="/about/">About KPCM EM</a></span></p>
+				</li>
+				<li class="draw_menu_border primary_menu_item grid_2">
+					<p><span class="menu_button"><a href="/media/pictures/">Photos</a></span></p>
+				</li>
+				<li class="draw_menu_border primary_menu_item grid_4 alpha omega ">
+					<p><span class="menu_button"><a href="/contact/">Contact Us</a></span></p>
+				</li>
+			</ul>
+		</div>
+	</div>
