@@ -6,23 +6,29 @@
 			<p class="right"><a href="/about/our-worship/praise-songs/">Weekly Praise Songs</a> | <a href="/contact/">Contact Us</a> | <a href="/about/our-vision/">Our Vision Statement</a></p>
 		</div>
 	</div>
-
-	<!-- Piwik -->
+	<!-- Quantcast Tag -->
 	<script type="text/javascript">
-	  var _paq = _paq || [];
-	  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-	  _paq.push(["setCookieDomain", "*.kpcmem.org"]);
-	  _paq.push(["trackPageView"]);
-	  _paq.push(["enableLinkTracking"]);
+	var _qevents = _qevents || [];
 
-	  (function() {
-	    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://keehun.com/piwik/";
-	    _paq.push(["setTrackerUrl", u+"piwik.php"]);
-	    _paq.push(["setSiteId", "3"]);
-	    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-	    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-	  })();
+	(function() {
+	var elem = document.createElement('script');
+	elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+	elem.async = true;
+	elem.type = "text/javascript";
+	var scpt = document.getElementsByTagName('script')[0];
+	scpt.parentNode.insertBefore(elem, scpt);
+	})();
+
+	_qevents.push({
+	qacct:"p-NKCP6bHExqS0K"
+	});
 	</script>
-	<!-- End Piwik Code -->
+
+	<noscript>
+	<div style="display:none;">
+	<img src="//pixel.quantserve.com/pixel/p-NKCP6bHExqS0K.gif" border="0" height="1" width="1" alt="Quantcast"/>
+	</div>
+	</noscript>
+	<!-- End Quantcast tag -->
 </body>
 </html>
