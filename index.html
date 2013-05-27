@@ -7,17 +7,15 @@ title: KPCM Homepage
 	<div class="grid_12 home_page_rotator_container blueberry">
 		<div id="home_page_rotator">
 			<ul class="slides">
-				<li><a href="http://kpcmem.org/?p=549"><img src="/uploads/2013/04/2013-4-11-VBS.png" alt="VBS 2013!" /></a></li>
-				<li><a href="http://kpcmem.org/about/our-ministries/#Womens-Group-Bible-Study"><img src="uploads/2013/03/2013-3-23-2013-Womens-Devotion1.png" alt="Women&#8217;s Bible Study" /></a></li>
-				<li><a href="http://kpcmem.org/?p=380"><img src="/uploads/2012/09/2012-9-23-Communion-Sunday.png" alt="Communion Sunday" /></a></li>
-				<li><a href="http://kpcmem.org/?p=382"><img src="/uploads/2012/09/2012-9-23-Praise-Sunday.png" alt="Praise Sunday" /></a></li>
+				{% for post in site.posts %}
+				<li><a href="{% if post.redirect-url != nil %}{{ post.redirect-url }}{% else %}{{ post.url }}{% endif %}"><img src="{{ post.cover-image }}" alt="{{ post.title }}" /></a></li>
+				{% endfor %}
 			</ul>
 
 			<ul class="home_page_rotator_labels rotator_labels pager">
-				<li class="rotator_label"><a href="#">VBS 2013!</a></li>
-				<li class="rotator_label"><a href="#">Women&#8217;s Bible Study</a></li>
-				<li class="rotator_label"><a href="#">Communion Sunday</a></li>
-				<li class="rotator_label"><a href="#">Praise Sunday</a></li>
+				{% for post in site.posts %}
+				<li class="rotator_label"><a href="#">{{ post.title }}</a></li>
+				{% endfor %}
 			</ul>
 		</div>
 	</div>
