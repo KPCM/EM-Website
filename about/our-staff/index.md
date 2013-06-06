@@ -17,12 +17,12 @@ sidebar: about-sidebar
 </div>
 <div class="grid_9 alpha person_tile">
 	<div class="grid_2 alpha">
-		<img src="/uploads/heads/resized/Duane.png" width="140" height="140" alt="Duane Schlottke"></img>
+		<img src="/uploads//heads/resized/Steve_O.png" width="140" height="140" alt="Steve Oh"></img>
 	</div>
 	<div class="grid_7 omega">
-		<p style="color: #888888;">Youth Group Pastor</p>
-		<h3 class="staff-name">Duane Schlottke</h3>
-		<p><span class="gray_text">email</span>&nbsp;<a href="mailto:dschlottke@yahoo.com">dschlottke@yahoo.com</a></p>
+		<p style="color: #888888;">Interim Youth Group Coordinator</p>
+		<h3 class="staff-name">Steve Oh</h3>
+		<p><span class="gray_text">email</span>&nbsp;<a href="mailto:mnsteveoh@yahoo.com">mnsteveoh@yahoo.com</a></p>
 	</div>
 </div>
 <div class="grid_9 alpha person_tile">
