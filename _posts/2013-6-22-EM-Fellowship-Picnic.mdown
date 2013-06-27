@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "EM Fellowship Picnic"
+date:   2013-06-19 00:00:00
+cover-image: /uploads/2013/06/EM-Picnic.png
+---
+![EM Picnic Details](/uploads/2013/06/EM-Picnic-Details.png)
+
+## Picnic Details
+* Date - Saturday, July 13th.
+* Time - 3:00pm
+* Location - Church
