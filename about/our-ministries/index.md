@@ -7,9 +7,9 @@ sidebar: about-sidebar
 ### Small Group Ministry
 Adult Members of our congregation participate in small group to foster more intimate fellowship with one another as well as encourage one another to grow in faith and trust in our Lord, Jesus Christ.
 
-* **Small Group 1** Steve & Eunah Oh
-* **Small Group 2** David Kim, Kathy Choih & Lana Park
-* **Small Group 3** Glen Berkland, Sue Stryker & Kris Chung
+* **Small Group 1** David Kim & Kathy Choih
+* **Small Group 2** Lana Park & Jackie Yoon
+* **Small Group 3** Glen Berkland & Sue Stryker
 
 ### Koinonia Ministry
 Koinonia is a Biblical Greek word which means "fellowship" and this ministry seeks to foster fellowship & outreach on three levels.
