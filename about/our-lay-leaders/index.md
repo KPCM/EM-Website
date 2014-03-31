@@ -11,31 +11,29 @@ sidebar: about-sidebar
 
 	<div class="grid_2 alpha">
 		<div class="person_tile">
-			<img src="/uploads//heads/resized/Kris.png" width="140" height="140" alt="Kris Chung">
-			<a href="mailto:minusthefro@gmail.com">Kris Chung</a><br>
-		</div>
-		<div class="person_tile">
-			<img src="/uploads//heads/resized/Lana.png" width="140" height="140" alt="Lana Park">
+			<img src="/uploads/heads/resized/Lana.png" width="140" height="140" alt="Lana Park">
 			<a href="mailto:lanapark@yahoo.com">Lana Park</a><br>
 		</div>
 	</div>
 	<div class="grid_2">
 		<div class="person_tile">
-			<img src="/uploads//heads/resized/Aaron.png" width="140" height="140" alt="Aaron Hong">
+			<img src="/uploads/heads/resized/Aaron.png" width="140" height="140" alt="Aaron Hong">
 			<a href="mailto:akhong122@gmail.com">Aaron Hong</a><br>
 		</div>
+	</div>
+	<div class="grid_2">
 		<div class="person_tile">
-			<img src="/uploads//heads/resized/Jackie.png" width="140" height="140" alt="Jackie Yoon">
+			<img src="/uploads/heads/resized/Jackie.png" width="140" height="140" alt="Jackie Yoon">
 			<a href="mailto:heekyung_yoon@msn.com">Jackie Yoon</a>
 		</div>
 	</div>
 	<div class="grid_2">
 		<div class="person_tile">
-			<img src="/uploads//heads/resized/Steve_O.png" width="140" height="140" alt="Steve Oh">
-			<a href="mailto:mnsteveoh@yahoo.com">Steve Oh</a><br>
+			<img src="/uploads/heads/resized/Glen.png" width="140" height="140" alt="Glen Berkland">
+			<a href="mailto:sjsgeb@comcast.net">Glen Berkland</a>
 		</div>
 	</div>
-	<div class="grid_3 omega">
+	<div class="grid_1 omega">
 		<br />
 	</div>
 </div>
@@ -44,23 +42,17 @@ sidebar: about-sidebar
 
 	<div class="grid_2 alpha">
 		<div class="person_tile">
-			<img src="/uploads//heads/resized/David.png" width="140" height="140" alt="David Kim">
+			<img src="/uploads/heads/resized/David.png" width="140" height="140" alt="David Kim">
 			<a href="mailto:davek1@gmail.com">David Kim</a><br>
 		</div>
 	</div>
 	<div class="grid_2">
 		<div class="person_tile">
-			<img src="/uploads//heads/resized/Matt.png" width="140" height="140" alt="Matt Kim">
-			<a href="mailto:matt.kw.kim@gmail.com">Matt Kim</a><br>
-		</div>
-	</div>
-	<div class="grid_2">
-		<div class="person_tile">
-			<img src="/uploads//heads/resized/Sue.png" width="140" height="140" alt="Sue Stryker">
+			<img src="/uploads/heads/resized/Sue.png" width="140" height="140" alt="Sue Stryker">
 			<a href="mailto:suestryker@comcast.net">Sue Stryker</a>**
 		</div>
 	</div>
-	<div class="grid_3 omega">
+	<div class="grid_5 omega">
 		<br />
 	</div>
 </div>

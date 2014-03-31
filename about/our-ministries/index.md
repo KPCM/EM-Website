@@ -4,29 +4,18 @@ title: Our Ministries
 name: our-ministries
 sidebar: about-sidebar
 ---
-### Small Group Ministry
-Adult Members of our congregation participate in small group to foster more intimate fellowship with one another as well as encourage one another to grow in faith and trust in our Lord, Jesus Christ.
 
-* **Small Group 1** David Kim & Kathy Choih
-* **Small Group 2** Lana Park & Jackie Yoon
-* **Small Group 3** Glen Berkland & Sue Stryker
+### Monthly Bible Fellowship
 
-### Koinonia Ministry
-Koinonia is a Biblical Greek word which means "fellowship" and this ministry seeks to foster fellowship & outreach on three levels.
+* KPCM EM members gather once a month to share in the discussion and reflection of the Scripture.
+* The host family will organize the discussion/sharing agendas and provide a hospitable atmosphere for the congregation.
+* Join us as we seek to encourage and strengthen one another in faith through a time of spiritual fellowship.
 
-* Outreach/Attraction to Church
-* Sunday Connection
-* Follow Up and Relationship Building
+### Congregation Fellowship Night
 
-Servants in the Koinonia Ministry are:
+* Quarterly fellowship gathering for the entire congregation in hopes of fostering closer and more intimate relationship with one another.
+* We hope to create intimate fellowship as we share a meal together and also catch up with one another as to how the Lord is working in our lives.
 
-* Lawrence & Amy Cho (Coordinators)
-* Glen Berkland & Sue Stryker
-* David Kim & Kathy Choih
-* Matt & Allison Kim
-* Adrine Chung
-
-<span id="Womens-Group-Bible-Study">&nbsp;</span>
 ### Women's Group Bible Study
 
 Women of EM are invited to join the Spring/Summer Bible Study Session. First meeting will be **Saturday, April 13th** from 9:00AM to 11:00AM. This is a Bi-Weekly gathering and the session will conclude on Saturday, August 3rd with fellowship. We will be studying the book of James using material from Beth Moore's group study material, **James: Mercy Triumphs**. The cost of the book is $15. Bible Study will meet at KPCM (Children's Ministry Worship Room).
